@@ -1,0 +1,40 @@
+.container {
+    margin-bottom: 1em;
+    height: auto;
+    width: 100%;
+}
+
+.hero-content {
+    max-width: 1400px;
+}
+
+.text_deg {
+    width: 700px;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.img_deg img {
+    object-fit: cover;
+    height: 650px;
+    width: 100%;
+}
+
+.head {
+    font-weight: 600;
+}
+@media (max-width: 768px) {
+    .hero-content {
+        font-size: 12px;
+    }
+
+    .head {
+        margin-top: 1.5rem;
+    }
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 1400px) {
+}

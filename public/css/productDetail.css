@@ -1,0 +1,112 @@
+.container {
+    margin-bottom: 1em;
+    height: auto;
+    width: 100%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4em;
+    width: 25em;
+}
+
+.title h3 {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.more {
+    font-size: 12px;
+}
+.more h6 {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    color: rgb(0, 0, 0);
+}
+
+.qty-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5em;
+    margin-top: 1em;
+
+    /* margin-left: -16%; */
+}
+.content form {
+    padding: 0;
+}
+.qty-form-input {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.qty-form input {
+    font-size: 12px;
+    width: 12em;
+}
+
+.qty-form button {
+    font-size: 8px;
+    width: 12em;
+    border: 1px solid #827057;
+}
+
+.qty-form button:hover {
+    background-color: #827057;
+    color: white;
+}
+
+.error-message {
+    color: rgb(184, 0, 0);
+    font: bold;
+    font-size: 0.85rem;
+}
+
+.btn {
+    font-size: 14px !important;
+    padding: auto;
+}
+
+.img-box img {
+    width: 100%;
+    max-height: 50vh;
+    object-fit: cover;
+}
+
+.img-col {
+    padding: 0;
+}
+
+.detail-col {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+@media (max-width: 900px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        min-height: 80vh;
+        align-items: center;
+    }
+
+    .details {
+        margin-top: 10px;
+        margin-bottom: 35px;
+    }
+
+    .detail-col {
+        padding: 0;
+    }
+
+    .product-detail {
+        margin: 20px;
+    }
+}

@@ -1,0 +1,45 @@
+.form-group {
+    margin-bottom: 1.25em;
+    width: 100%;
+    max-width: 30em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form {
+    width: 100%;
+}
+
+.register_deg {
+    justify-content: center;
+    display: flex;
+}
+
+h1 {
+    text-align: center;
+}
+
+.btn {
+    width: 100%;
+    max-width: 30em;
+}
+
+.login a {
+    color: #1e1e1e;
+    font-weight: 600;
+}
+
+.login {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.login a:hover {
+    color: #ffc107;
+}
+
+.alert {
+    max-width: 30em;
+    margin-left: auto;
+    margin-right: auto;
+}

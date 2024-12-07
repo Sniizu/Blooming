@@ -1,0 +1,613 @@
+.container {
+    margin-bottom: 1em;
+    height: auto;
+    width: 100%;
+}
+
+.hero-content {
+    max-width: 1400px;
+}
+
+.img {
+    width: 25%;
+    height: 25%;
+}
+.text_deg {
+    width: 700px;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.head {
+    font-weight: 600;
+}
+
+input[type="radio"]:checked {
+    background-color: #b09774 !important;
+    border-color: #b09774 !important;
+}
+
+input[type="radio"]:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+input[type="checkbox"].form-check-input:checked {
+    background-color: #b09774;
+    border: none;
+}
+
+input[type="checkbox"]:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.sprite {
+    background-image: url("/asset/spritesheet.png");
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-large {
+    width: 200px;
+    height: 200px;
+    background-position: -425px -425px;
+}
+.sprite-medium {
+    width: 200px;
+    height: 200px;
+    background-position: -425px -635px;
+}
+.sprite-small {
+    width: 200px;
+    height: 200px;
+    background-position: -1055px -635px;
+}
+
+.col-deg {
+    margin-right: 24px;
+}
+
+.sprite-Flowers-01 {
+    width: 200px;
+    height: 200px;
+    background-position: -5px -5px;
+}
+
+.sprite-Flowers-02 {
+    width: 200px;
+    height: 200px;
+    background-position: -215px -5px;
+}
+
+.sprite-Flowers-03 {
+    width: 200px;
+    height: 200px;
+    background-position: -425px -5px;
+}
+
+.sprite-Flowers-04 {
+    width: 200px;
+    height: 200px;
+    background-position: -635px -5px;
+}
+
+.sprite-Flowers-05 {
+    width: 200px;
+    height: 200px;
+    background-position: -845px -5px;
+}
+
+.sprite-Flowers-06 {
+    width: 200px;
+    height: 200px;
+    background-position: -5px -215px;
+}
+
+.sprite-Flowers-07 {
+    width: 200px;
+    height: 200px;
+    background-position: -215px -215px;
+}
+
+.sprite-Flowers-08 {
+    width: 200px;
+    height: 200px;
+    background-position: -425px -215px;
+}
+
+.sprite-Flowers-09 {
+    width: 200px;
+    height: 200px;
+    background-position: -635px -215px;
+}
+
+.sprite-Flowers-10 {
+    width: 200px;
+    height: 200px;
+    background-position: -845px -215px;
+}
+
+.sprite-filler-1 {
+    width: 200px;
+    height: 200px;
+    background-position: -5px -425px;
+}
+
+.sprite-filler-2 {
+    width: 200px;
+    height: 200px;
+    background-position: -215px -425px;
+}
+
+.sprite-leaf-1 {
+    width: 200px;
+    height: 200px;
+    background-position: -635px -425px;
+}
+
+.sprite-leaf-2 {
+    width: 200px;
+    height: 200px;
+    background-position: -845px -425px;
+}
+
+.sprite-leaf-3 {
+    width: 200px;
+    height: 200px;
+    background-position: -5px -635px;
+}
+
+.sprite-leaf-4 {
+    width: 200px;
+    height: 200px;
+    background-position: -215px -635px;
+}
+
+.sprite-paper-1 {
+    width: 200px;
+    height: 200px;
+    background-position: -635px -635px;
+}
+
+.sprite-paper-2 {
+    width: 200px;
+    height: 200px;
+    background-position: -845px -635px;
+}
+
+.sprite-paper-3 {
+    width: 200px;
+    height: 200px;
+    background-position: -5px -845px;
+}
+
+.sprite-paper-4 {
+    width: 200px;
+    height: 200px;
+    background-position: -215px -845px;
+}
+
+.sprite-paper-5 {
+    width: 200px;
+    height: 200px;
+    background-position: -425px -845px;
+}
+
+.sprite-ribbon-1 {
+    width: 200px;
+    height: 200px;
+    background-position: -635px -845px;
+}
+
+.sprite-ribbon-2 {
+    width: 200px;
+    height: 200px;
+    background-position: -845px -845px;
+}
+
+.sprite-ribbon-3 {
+    width: 200px;
+    height: 200px;
+    background-position: -1055px -5px;
+}
+
+.sprite-ribbon-4 {
+    width: 200px;
+    height: 200px;
+    background-position: -1055px -215px;
+}
+
+.sprite-ribbon-5 {
+    width: 200px;
+    height: 200px;
+    background-position: -1055px -425px;
+}
+
+@media (max-width: 992px) {
+    .col-deg {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-content {
+        font-size: 12px;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .col-deg {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .col-deg {
+        margin-right: 4px;
+    }
+
+    .sprite {
+        background-image: url("/asset/spritesheet-2.png");
+        background-repeat: no-repeat;
+        display: block;
+    }
+
+    .sprite-Flowers-01 {
+        width: 150px;
+        height: 150px;
+        background-position: -5px -5px;
+    }
+
+    .sprite-Flowers-02 {
+        width: 150px;
+        height: 150px;
+        background-position: -165px -5px;
+    }
+
+    .sprite-Flowers-03 {
+        width: 150px;
+        height: 150px;
+        background-position: -325px -5px;
+    }
+
+    .sprite-Flowers-04 {
+        width: 150px;
+        height: 150px;
+        background-position: -485px -5px;
+    }
+
+    .sprite-Flowers-05 {
+        width: 150px;
+        height: 150px;
+        background-position: -645px -5px;
+    }
+
+    .sprite-Flowers-06 {
+        width: 150px;
+        height: 150px;
+        background-position: -5px -165px;
+    }
+
+    .sprite-Flowers-07 {
+        width: 150px;
+        height: 150px;
+        background-position: -165px -165px;
+    }
+
+    .sprite-Flowers-08 {
+        width: 150px;
+        height: 150px;
+        background-position: -325px -165px;
+    }
+
+    .sprite-Flowers-09 {
+        width: 150px;
+        height: 150px;
+        background-position: -485px -165px;
+    }
+
+    .sprite-Flowers-10 {
+        width: 150px;
+        height: 150px;
+        background-position: -645px -165px;
+    }
+
+    .sprite-filler-1 {
+        width: 150px;
+        height: 150px;
+        background-position: -5px -325px;
+    }
+
+    .sprite-filler-2 {
+        width: 150px;
+        height: 150px;
+        background-position: -165px -325px;
+    }
+
+    .sprite-large {
+        width: 150px;
+        height: 150px;
+        background-position: -325px -325px;
+    }
+
+    .sprite-leaf-1 {
+        width: 150px;
+        height: 150px;
+        background-position: -485px -325px;
+    }
+
+    .sprite-leaf-2 {
+        width: 150px;
+        height: 150px;
+        background-position: -645px -325px;
+    }
+
+    .sprite-leaf-3 {
+        width: 150px;
+        height: 150px;
+        background-position: -5px -485px;
+    }
+
+    .sprite-leaf-4 {
+        width: 150px;
+        height: 150px;
+        background-position: -165px -485px;
+    }
+
+    .sprite-medium {
+        width: 150px;
+        height: 150px;
+        background-position: -325px -485px;
+    }
+
+    .sprite-paper-1 {
+        width: 150px;
+        height: 150px;
+        background-position: -485px -485px;
+    }
+
+    .sprite-paper-2 {
+        width: 150px;
+        height: 150px;
+        background-position: -645px -485px;
+    }
+
+    .sprite-paper-3 {
+        width: 150px;
+        height: 150px;
+        background-position: -5px -645px;
+    }
+
+    .sprite-paper-4 {
+        width: 150px;
+        height: 150px;
+        background-position: -165px -645px;
+    }
+
+    .sprite-paper-5 {
+        width: 150px;
+        height: 150px;
+        background-position: -325px -645px;
+    }
+
+    .sprite-ribbon-1 {
+        width: 150px;
+        height: 150px;
+        background-position: -485px -645px;
+    }
+
+    .sprite-ribbon-2 {
+        width: 150px;
+        height: 150px;
+        background-position: -645px -645px;
+    }
+
+    .sprite-ribbon-3 {
+        width: 150px;
+        height: 150px;
+        background-position: -805px -5px;
+    }
+
+    .sprite-ribbon-4 {
+        width: 150px;
+        height: 150px;
+        background-position: -805px -165px;
+    }
+
+    .sprite-ribbon-5 {
+        width: 150px;
+        height: 150px;
+        background-position: -805px -325px;
+    }
+
+    .sprite-small {
+        width: 150px;
+        height: 150px;
+        background-position: -805px -485px;
+    }
+}
+
+@media (max-width: 450px) {
+    .sprite {
+        background-image: url("/asset/spritesheet-3.png");
+        background-repeat: no-repeat;
+        display: block;
+    }
+
+    .sprite-Flowers-01 {
+        width: 100px;
+        height: 100px;
+        background-position: -5px -5px;
+    }
+
+    .sprite-Flowers-02 {
+        width: 100px;
+        height: 100px;
+        background-position: -115px -5px;
+    }
+
+    .sprite-Flowers-03 {
+        width: 100px;
+        height: 100px;
+        background-position: -225px -5px;
+    }
+
+    .sprite-Flowers-04 {
+        width: 100px;
+        height: 100px;
+        background-position: -335px -5px;
+    }
+
+    .sprite-Flowers-05 {
+        width: 100px;
+        height: 100px;
+        background-position: -445px -5px;
+    }
+
+    .sprite-Flowers-06 {
+        width: 100px;
+        height: 100px;
+        background-position: -5px -115px;
+    }
+
+    .sprite-Flowers-07 {
+        width: 100px;
+        height: 100px;
+        background-position: -115px -115px;
+    }
+
+    .sprite-Flowers-08 {
+        width: 100px;
+        height: 100px;
+        background-position: -225px -115px;
+    }
+
+    .sprite-Flowers-09 {
+        width: 100px;
+        height: 100px;
+        background-position: -335px -115px;
+    }
+
+    .sprite-Flowers-10 {
+        width: 100px;
+        height: 100px;
+        background-position: -445px -115px;
+    }
+
+    .sprite-filler-1 {
+        width: 100px;
+        height: 100px;
+        background-position: -5px -225px;
+    }
+
+    .sprite-filler-2 {
+        width: 100px;
+        height: 100px;
+        background-position: -115px -225px;
+    }
+
+    .sprite-large {
+        width: 100px;
+        height: 100px;
+        background-position: -225px -225px;
+    }
+
+    .sprite-leaf-1 {
+        width: 100px;
+        height: 100px;
+        background-position: -335px -225px;
+    }
+
+    .sprite-leaf-2 {
+        width: 100px;
+        height: 100px;
+        background-position: -445px -225px;
+    }
+
+    .sprite-leaf-3 {
+        width: 100px;
+        height: 100px;
+        background-position: -5px -335px;
+    }
+
+    .sprite-leaf-4 {
+        width: 100px;
+        height: 100px;
+        background-position: -115px -335px;
+    }
+
+    .sprite-medium {
+        width: 100px;
+        height: 100px;
+        background-position: -225px -335px;
+    }
+
+    .sprite-paper-1 {
+        width: 100px;
+        height: 100px;
+        background-position: -335px -335px;
+    }
+
+    .sprite-paper-2 {
+        width: 100px;
+        height: 100px;
+        background-position: -445px -335px;
+    }
+
+    .sprite-paper-3 {
+        width: 100px;
+        height: 100px;
+        background-position: -5px -445px;
+    }
+
+    .sprite-paper-4 {
+        width: 100px;
+        height: 100px;
+        background-position: -115px -445px;
+    }
+
+    .sprite-paper-5 {
+        width: 100px;
+        height: 100px;
+        background-position: -225px -445px;
+    }
+
+    .sprite-ribbon-1 {
+        width: 100px;
+        height: 100px;
+        background-position: -335px -445px;
+    }
+
+    .sprite-ribbon-2 {
+        width: 100px;
+        height: 100px;
+        background-position: -445px -445px;
+    }
+
+    .sprite-ribbon-3 {
+        width: 100px;
+        height: 100px;
+        background-position: -555px -5px;
+    }
+
+    .sprite-ribbon-4 {
+        width: 100px;
+        height: 100px;
+        background-position: -555px -115px;
+    }
+
+    .sprite-ribbon-5 {
+        width: 100px;
+        height: 100px;
+        background-position: -555px -225px;
+    }
+
+    .sprite-small {
+        width: 100px;
+        height: 100px;
+        background-position: -555px -335px;
+    }
+}

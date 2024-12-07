@@ -1,0 +1,86 @@
+.container {
+    margin-bottom: 1em;
+    height: auto;
+    width: 100%;
+}
+
+.trash img {
+    width: 32em;
+    height: auto;
+}
+
+#deleteForm {
+    padding: 0;
+}
+
+.checkout-form {
+    min-height: 20em;
+}
+
+.checkout-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2em;
+}
+
+.checkout-form form label {
+    margin-bottom: 0.5em;
+}
+
+.checkout-form form button {
+    width: 20%;
+}
+
+.cart-table button {
+    width: 6em;
+    margin-bottom: 0.4em;
+    border-radius: 1.2em;
+}
+
+.cart-table img {
+    scale: 0.6;
+    border-radius: 2em;
+    margin-left: -4em;
+    margin-right: -2em;
+    width: 160px;
+    height: 160px;
+}
+
+tbody {
+    font-size: 12px;
+}
+
+.total-price {
+    font-weight: 700;
+}
+
+.grand-total {
+    font-weight: 900;
+    color: #3d8361;
+}
+
+.cart-table {
+    width: 100%;
+}
+
+.cart-table th {
+    white-space: nowrap;
+}
+
+.table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch; /* For smooth scrolling on iOS */
+}
+
+.table-responsive::-webkit-scrollbar {
+    height: 8px; /* Adjust the scrollbar height as needed */
+}
+
+.table-responsive::-webkit-scrollbar-thumb {
+    background-color: #888; /* Scrollbar thumb color */
+    border-radius: 4px; /* Scrollbar thumb border radius */
+}
+
+.table-responsive::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Scrollbar thumb color on hover */
+}
